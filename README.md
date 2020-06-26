@@ -1,6 +1,5 @@
 # Project 4: Data Lake & Spark
 
-<p align="center"><img src="images/logo.png" style="height: 100%; width: 100%; max-width: 200px" /></p>
 
 ## Introduction
 As a data engineer, I was responsible for developing a data lake for the analytics team at Sparkify. After considerable growth in user base and song database it was time to move the data warehouse to a data lake and enhance data processing through Spark.
@@ -14,7 +13,7 @@ Skills include:
 * Scaling up the data analysis process through the use of a data lake and Spark, in order to further optimize queries on song play analysis
 
 # Run The Scripts
-The primary file in this repo is the `etl.py`, which will read in files from S3 buckets, process them using Spark and store them as parquet files in S3 buckets, partitioned appropriately.
+The primary file in this repo is the `etl_end.py`, which will read in files from S3 buckets, process them using Spark and store them as parquet files in S3 buckets, partitioned appropriately.
 
 # Available Data
 ### Song Dataset
